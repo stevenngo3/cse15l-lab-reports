@@ -7,7 +7,7 @@
 * To use ssh, open up the VScode terminal and the command should look like this `$ ssh cs15lwi23zz@ieng6.ucsd.edu` (zz is replaced by letters in your course-specific account)
 * When connected, your terminal should look like this:
  ![term](term1.PNG) 
- ## Trying Some Commands
+## Trying Some Commands
  * You can run commands in the terminal such as cd, ls, pwd, etc. 
  * Running the command `ls -lat` will list the files in the current directory.
  * Below is what the terminal would look like when running commands:
