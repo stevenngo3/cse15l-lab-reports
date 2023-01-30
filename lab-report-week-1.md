@@ -16,6 +16,6 @@
 ## Trying Some Commands
  * You can run commands in the terminal such as `cd`, `ls`, `pwd`, etc. 
  * Below is what the terminal would look like when running commands:
- ![comm](comm1.PNG)
- * Running the command `ls -lat` will list the files in the current directory.
+ ![comm](runningcomms.png)
+ * These commands have uses when they are ran. For example, running the command `ls -lat` will list the files in the current directory and `pwd` shows the path name of the working directory.
 
