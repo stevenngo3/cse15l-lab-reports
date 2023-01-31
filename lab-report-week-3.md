@@ -66,7 +66,7 @@ static int[] reversed(int[] arr) {
   ```
   ![newfix](newfix.PNG)
   
-  ## Part 3
+## Part 3
   Something I learned from lab in week 2 that I didn't know before was the coding behind web servers. I never really knew how web servers work when it comes to the coding so this was something new to me. I was surprised but at the same time fascinated, at how a block of code could make changes to a web server such as incrementing numbers using the link.
   
   
