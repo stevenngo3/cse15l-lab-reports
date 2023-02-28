@@ -10,7 +10,7 @@ Command:
 ```
 grep -r "Shellfish" written_2
 ```
-With this command, the `grep -r` will recursively search through the `written_2` directory and all of its subdirectories to look for files that has "Shellfish". As shown in the output, the terminal will show the file and the line that contains the text "Shellfish".
+With this command, the `grep -r` will recursively search through the `written_2` directory and all of its subdirectories to look for files that has `Shellfish`. As shown in the output, the terminal will show the file and the line that contains the text `Shellfish`.
 
 Output:
 ```
@@ -24,7 +24,7 @@ Command:
 ```
 grep -r "Berlioz" written_2
 ```
-This command is the same as the previous example, as it will recursively grep through the `written_2` directory and all of its subdirectories to look for files that has "Berlioz". As shown in the output, the terminal will show the file and the line that contains the text "Berlioz".
+This command is the same as the previous example, as it will recursively grep through the `written_2` directory and all of its subdirectories to look for files that has `Berlioz`. As shown in the output, the terminal will show the file and the line that contains the text `Berlioz`.
 
 Output:
 ```
@@ -40,7 +40,7 @@ Command:
 ```
 grep -E "^Rice" -r written_2
 ```
-This command will recursively search through the `written_2` directory and all of its subdirectories to look for files that has the text "Rice" at the beginning of a line. As shown in the output, the terminal shows all the files that contains "Rice", and the line the specified text is at the beginning of.
+This command will recursively search through the `written_2` directory and all of its subdirectories to look for files that has the text `Rice` at the beginning of a line. As shown in the output, the terminal shows all the files that contains `Rice`, and the line the specified text is at the beginning of.
 
 Output:
 ```
@@ -53,7 +53,7 @@ Command:
 ```
 grep -E "^Outdoor" -r written_2 
 ```
-Like the previous example, this command will recursively search through the `written_2` directory and all of its subdirectories to look for files that has the text "Outdoor" at the beginning of a line. As shown in the output, the terminal shows all the files that contains "Outdoor", and the line the specified text is at the beginning of.
+Like the previous example, this command will recursively search through the `written_2` directory and all of its subdirectories to look for files that has the text `Outdoor` at the beginning of a line. As shown in the output, the terminal shows all the files that contains `Outdoor`, and the line the specified text is at the beginning of.
 
 Output:
 ```
@@ -72,7 +72,7 @@ Command:
 ```
 grep -n "Chicken" -r written_2
 ```
-This command will recursively search through the `written_2` directory and all of its subdirectories to look for files that has the text "Chicken", as well as the line number that it is in. As shown in the output, the terminal will show all the files that has "Chicken" and what line number the text is in. 
+This command will recursively search through the `written_2` directory and all of its subdirectories to look for files that has the text `Chicken`, as well as the line number that it is in. As shown in the output, the terminal will show all the files that has `Chicken` and what line number the text is in. 
 
 Output:
 ```
@@ -88,7 +88,7 @@ Command:
 ```
 grep -n "Shoes" -r written_2
 ```
-Like the previous example, this command will recursively search through the `written_2` directory and all of its subdirectories to look for files that has the text "Shoes", as well as the line number that it is in. As shown in the output, the terminal will show all the files that has "Shoes" and what line number the text is in. 
+Like the previous example, this command will recursively search through the `written_2` directory and all of its subdirectories to look for files that has the text `Shoes`, as well as the line number that it is in. As shown in the output, the terminal will show all the files that has `Shoes` and what line number the text is in. 
 
 Output:
 ```
@@ -106,7 +106,7 @@ Command:
 ```
 grep -c "celebrities" -r written_2
 ```
-This command will recursively search through the `written_2` directory and all of its subdirectories to look for files that has the text "celebrities", and how many times this text shows up in the file. As shown in the output, there are only some files that contains the word "celebrities" and it seems that they only appear once in the file. If you really want to look for celebrities, Los Angeles would be a good choice to find some as the where to go file contains the keyword "celebrities" 11 times.
+This command will recursively search through the `written_2` directory and all of its subdirectories to look for files that has the text `celebrities`, and how many times this text shows up in the file. As shown in the output, there are only some files that contains the word `celebrities` and it seems that they only appear once in the file. If you really want to look for celebrities, Los Angeles would be a good choice to find some as the where to go file contains the keyword `celebrities` 11 times.
 
 Output:
 ```
@@ -342,7 +342,7 @@ Command:
 ```
 grep -c "hotels" -r written_2
 ```
-This command will recursively search through the `written_2` directory and all of its subdirectories to look for files that has the text "hotels", and how many times this text shows up in the file. As shown in the output, there are actually quite a few files that contains the word "hotels", and it seems that if you want to look for a hotel at a certain place, places like Vallarta, Italy, and the Bahamas would be a good choice to find good hotels since the keyword "hotel" pops up more than 10 times in the where to go files.
+This command will recursively search through the `written_2` directory and all of its subdirectories to look for files that has the text `hotels`, and how many times this text shows up in the file. As shown in the output, there are actually quite a few files that contains the word `hotels`, and it seems that if you want to look for a hotel at a certain place, places like Vallarta, Italy, and the Bahamas would be a good choice to find good hotels since the keyword `hotel` pops up more than 10 times in the where to go files.
 
 Output:
 ```
