@@ -10,6 +10,7 @@ Command:
 ```
 grep -r "Shellfish" written_2
 ```
+With this command, the `grep -r` will recursively grep through the `written_2 directory and all of its subdirectories.
 Output:
 ```
 written_2/travel_guides/berlitz2/CostaBlanca-WhatToDo.txt:The seafood and fish of the Mediterranean provide some of the coast’s most memorable meals. A great favourite is zarzuela de mariscos, a variation of a Catalan 
