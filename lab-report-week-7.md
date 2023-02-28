@@ -25,6 +25,10 @@ We can rerun the tests since they should all pass now, so we `<up><up><up>` + `<
 ![lab7step8](lab7s8.PNG)
 
 ## Part 9
-Finally, I typed `git add ListExamples.java` + `<enter>` to update the file changes and then typed `git commit -m "Updated"` + `<enter>` to make a new commit.
+Finally, I typed `git add ListExamples.java` + `<enter>` to update the file changes and then typed `git commit -m "Updated"` + `<enter>` to make a new commit. Then I typed `git push` + `<enter>`, typed my username and password. Authentication failed for me, but this is the command to push the changes.
 
 ![lab7step9](lab7s9.PNG)
+
+![lab7step91](lab7s99.PNG)
+
+
